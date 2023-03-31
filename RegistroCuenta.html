@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="fondoxs">
+    <div class="navbar">
+        <a class="active" href="index.html"><i class="fa fa-fw fa-home"></i> Inicio</a> 
+        <a href="#"><i class="fa fa-fw fa-search"></i> Buscar</a> 
+        <a href="contacto.html"><i class="fa fa-fw fa-envelope"></i> Contacto</a> 
+        <a href="InicioSession.html"><i class="fa fa-fw fa-user"></i> Ingresar </a>
+    </div>
+    
+</div>
+<form action="/action_page.php">
+    <div class="container">
+      <h1 id="TituloRegistrarse">Registrarse</h1>
+      <p>Por favor, rellene este formulario para crear una cuenta.</p>
+      <hr>
+  
+      <label class="correoLinea"  for="email"><b>Correo Electronico</b></label>
+      <br>
+      <input type="text" placeholder="Enter Email" name="email" id="email" required style="width: 300px;"><br>
+      <label for="psw"><b>Contraseña</b></label><br>
+      <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+      <br>
+      <br>
+      
+  
+      <label for="psw-repeat"><b>Repite la Contraseña</b></label><br>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+      <hr>
+      <p>
+        Al crear una cuenta, usted acepta nuestros <a href="#">Terminos & Privacidad</a>.</p>
+  
+      <button type="submit" class="registerbtn" >Registrarse</button >
+    </div>
+    
+    <div class="container signin">
+      <p>¿Ya tienes una cuenta? <a href="InicioSession.html">Iniciar Sesion</a>.</p>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="fondoxs">
+    <div class="navbar">
+        <a class="active" href="index.html"><i class="fa fa-fw fa-home"></i> Inicio</a> 
+        <a href="#"><i class="fa fa-fw fa-search"></i> Buscar</a> 
+        <a href="contacto.html"><i class="fa fa-fw fa-envelope"></i> Contacto</a> 
+        <a href="InicioSession.html"><i class="fa fa-fw fa-user"></i> Ingresar </a>
+    </div>
+    
+
+<section>
+<div class="container">
+<form action="/action_page.php">
+    <h3 id="h3Formulario">Formulario de Contacto</h3>
+    <label for="fname">Nombre</label>
+    <input type="text" id="fname" name="firstname" placeholder="Ingresa tu nombre...">
+
+    <label for="lname">Apellido</label>
+    <input type="text" id="lname" name="lastname" placeholder="Ingresa tu apellido...">
+
+    <label for="country">Pais</label>
+    <select id="country" name="country">
+    <option value="australia">Chile</option>
+    <option value="canada">Argentina</option>
+    <option value="usa">Brasil</option>
+    </select>
+
+    <label for="subject">Asunto</label>
+    <textarea id="subject" name="subject" placeholder="Escribenos..." style="height:150px"></textarea>
+    <input type="submit" value="Submit">
+    
+</form>
+</div>
+</div>
+</body>
+</html>
